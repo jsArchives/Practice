@@ -1,3 +1,3 @@
 # Practice
-Practice html/css
+Practice html
 studying with "생활코딩"
