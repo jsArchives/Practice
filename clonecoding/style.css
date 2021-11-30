@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+.linkhtml{
+    color:slateblue;
+    text-decoration: none;
+}
+#clicked{
+    color:black;
+    text-decoration: underline;
+    cursor:default;
+}
+#head{
+    border-bottom:1px solid black;
+    text-align: center;
+}
+#main{
+    display:grid;
+    grid-template-columns: 120px 1fr;
+    border-bottom:1px solid black;
+}
+#main ol{
+    font-size: 120%;
+    padding:20px;
+}
+#main #contents{
+    border-left:1px solid black;
+    padding:20px;
+}
+.video{
+    padding: 20px;
+}
+@media (max-width:700px){
+    #main{
+        display:block;
+        border-bottom:1px solid black;
+    }
+    #main ol{
+        border-bottom: 1px solid black;
+        margin:0;
+    }
+    #main #contents{
+        padding-top: 0;
+    }
+}
